@@ -1,0 +1,276 @@
+body{
+	background: #1C1C1C url("../images/stoneDark.jpg") repeat fixed right bottom;
+	margin-top: 10px;
+	padding: 0;
+	font: 1em/1.5em Verdana, sans-serif;	
+	font-size: 12px;
+	color: black;
+	text-align: justify;
+	scrollbar-arrow-color: #silver; 
+    scrollbar-base-color: #555555;
+    scrollbar-track-color: #000000; 
+    scrollbar-highlight-color:silver; 
+    scrollbar-shadow-color:silver;
+	}
+	
+#container{
+	background: #1C1C1C url("../images/stone.jpg") repeat right bottom;
+	width: 970px;
+	margin: 10px auto 5px auto;
+	border-style: dotted;	
+	border-width: 2px;
+	border-color: gray;
+	box-shadow: #6a3d37 5px 5px 6px;
+	border-radius: 12px;
+}
+
+#menuUp {
+	width: 910px;
+	margin: 10px auto 10px auto;
+	padding: 0px;
+	height: 32px;
+}
+
+#menuUp ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menuUp ul {
+	border-bottom: 1px solid #888;
+	float: left;
+	width: 100%;
+	padding-left: 20px;
+}
+
+#menuUp ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+#menuUp ul a:link, #menuUp ul a:visited {
+	text-decoration: none;
+	display: block;
+	background-color: #ccc;
+	color: #000;
+	padding: 5px 10px;
+	border: 1px solid #888;
+	position: relative;
+	top: 1px;
+}
+
+#menuUp ul a:hover {
+	background-color: white;
+	border-bottom-color: #fff;
+}
+
+#middle{
+	clear:both;
+	margin: 5px auto 5px auto;
+	width: 960px;
+	min-height:590px;
+	border-style: dotted;	
+	border-width: 1;
+	border-color: gray;
+}
+
+#menuLeft {
+	width: 160px;
+	min-height:520px;
+	float: left;
+	margin: 10px 5px 5px 5px;
+	padding: 0px;
+	border-style: dashed;	
+	border-width: 1;
+	border: 1px dashed #555555;
+	box-shadow: #6a3d37 5px 5px 6px;
+	border-radius: 12px;
+}
+
+#menuLeft ul {
+	margin-left: auto ;
+	margin-right:auto;
+	padding: 0px;
+	list-style: none;
+
+}
+
+#menuLeft li {
+	display: inline;
+	background-color:gray;
+}
+
+#menuLeft a {
+	display: block;
+	height: 15px;
+	margin: 1px 5px 5px 5px;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	border-style: dotted;	
+	border-width: 1;
+	border-color: gray;
+	background-color: #CDC9C9;
+	color: black;
+	padding: 5px;
+	border: 2px outset #ccc;
+}
+
+#menuLeft a:hover {
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+}
+
+#menuLeft #logged{
+	margin: 75px 5px 5px 5px;
+	margin-bottom:0px;
+	position:center;
+	color:#363636;
+	border-style: dashed;	
+	border-width: 1;
+	border-color: #808080;
+}
+
+#menuLeft p{
+	clear: both;
+	text-align:left;
+	margin: auto auto auto 15px;
+	font: 12px Verdana, sans-serif;	
+}
+
+#contents {
+	width: 755;
+	min-height:550px;
+	margin: 5px 5px 5px 0px;
+	float: right;
+	padding: 15px 5px 5px 15px;
+	border-style: dashed;	
+	border-width: 1px;
+	border-color: #696969;
+}
+
+#contents a{
+color:white;
+background:black;
+
+}
+
+#footer {
+	width: 910px;
+	height: 15px;
+	margin: 0px;
+	padding: 0px;
+	text-align:right;
+	color:#363636;
+	font: italic small-caps 10px Verdana, sans-serif;	
+}
+
+#boxHelloRegister {
+	position:center;
+	margin-top: auto;
+	padding: auto;
+
+	color:#363636;
+	text-align:center;
+	border-style: dashed;	
+	border-width: 1;
+	border-color: #808080;
+}
+
+#boxHello {
+	position:center;
+	margin-top: auto;
+	padding: auto;
+	width: 700px;
+	height: 500px;
+	color:#363636;
+	text-align:center;
+	border-style: dashed;	
+	border-width: 1;
+	border-color: #808080;
+}
+
+#boxHello #title{
+	position:center;
+	margin: 50 auto auto auto;
+	padding: auto;
+	width: 400px;
+	height: 30px;
+	color:#363636;
+	text-align:center;
+	border-style: solid ;	
+	border-width: 1;
+	border-color: #BBBBBB;
+}
+
+#boxHello #element{
+	float:left;
+	position:center;
+	margin: 5px auto auto 27;
+	padding: auto;
+	width: 140px;
+	color:#363636;
+	text-align:center;
+	border-style: solid ;	
+	border-width: 1;
+	border-color:#BBBBBB;
+}
+
+#boxHello h1{
+	font: bold 24px Verdana, sans-serif;	
+}
+
+#boxHello h2{
+	font: 18px Verdana, sans-serif;	
+	border-style: solid ;	
+	border-width: 1;
+	border-color:#BBBBBB;
+}
+
+#boxHello h3{
+	font: italic bold 16px Verdana, sans-serif;	
+	text-align:left;
+}
+
+#boxHello p{
+	clear: both;
+	font: 12px Verdana, sans-serif;	
+}
+
+#boxHello #p2{
+	clear: both;
+	text-align:left;
+	margin: auto auto auto 15px;
+	font: 12px Verdana, sans-serif;	
+}
+
+#boxAbout {
+	position:center;
+	margin-top: auto;
+	padding: auto;
+	width: 700px;
+	height: 500px;
+	color:#363636;
+	text-align:center;
+	border-style: dashed;	
+	border-width: 1;
+	border-color: #808080;
+}
+
+#boxAbout h1{
+	font: bold small-caps 16px Verdana, sans-serif;	
+}
+
+#boxAbout h2{
+	font: bold small-caps 16px Verdana, sans-serif;	
+	text-decoration:underline;
+}
+
+#boxAbout p{
+	margin-left: 15px;
+}
+

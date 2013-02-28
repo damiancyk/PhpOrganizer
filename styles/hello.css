@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+form, input, select, textarea {
+	margin:0;
+	padding:0;
+	color:#ffffff;
+}
+ 
+div.box {
+	margin:0 auto;
+	width:500px;
+	height:auto;
+	background:#9C9C9C;
+	position:relative;
+	top:50px;
+	border:1px solid #262626;
+}
+ 
+div.box h1 {
+	color:black;
+	font: bold small-caps 16px Verdana, sans-serif;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #363636;
+	border-top:1px solid #363636;
+}
+ 
+div.box label {
+	width:100%;
+	display: block;
+	background:#B5B5B5;
+	border-top:1px solid #363636;
+	border-bottom:1px solid #363636;
+	padding:10px 0 10px 0;
+}
+ 
+div.box label span {
+	display: block;
+	color:black;
+	font-size:12px;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:5px 20px 0 0;
+}
+ 
+div.box .input {
+	color:black;
+	padding:10px 10px;
+	width:200px;
+	background:#CFCFCF;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333333;
+	border-right:1px double #333333;
+}
+ 
+div.box .button	{
+	margin-top:10px;
+	margin-left:200px;
+	padding:4px 7px;
+	background:#CC0000;
+	width:100px;
+	border-bottom: 1px double #660000;
+	border-top: 1px double #660000;
+	border-left:1px double #FF0033;
+	border-right:1px double #FF0033;
+}
+		
+#boxHello{
+	color:black;
+	text-align:center;
+	font: italic small-caps 16px Verdana, sans-serif;	
+	border-bottom: 1px dashed #1C1C1C;
+	border-top: 1px dashed #1C1C1C;
+	border-left:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+}
+
+#boxGoodbye{
+	color:black;
+	text-align:center;
+	font: italic small-caps 16px Verdana, sans-serif;	
+	border-bottom: 1px dashed #1C1C1C;
+	border-top: 1px dashed #1C1C1C;
+	border-left:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+}
+
+#menuLeftInactive {
+	width: 160px;
+	min-height:560px;
+	float: left;
+	margin: 10px 5px 5px 5px;
+	padding: 0px;
+	border-style: dashed;	
+	border-width: 1;
+	border-color: gray;
+}
+
+#menuLeftInactive ul {
+	margin-left: auto ;
+	margin-right:auto;
+	padding: 0px;
+	list-style: none;
+
+}
+
+#menuLeftInactive li {
+	display: inline;
+	background-color:gray;
+}
+
+#menuLeftInactive a {
+	display: block;
+	height: 15px;
+	margin: 1px 5px 5px 5px;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	border-style: dotted;	
+	border-width: 1;
+	border-color: gray;
+	background-color: #CDC9C9;
+	color: black;
+	padding: 5px;
+	border: 2px outset #ccc;
+}

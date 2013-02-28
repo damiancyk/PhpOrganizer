@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+form, input, select, textarea {
+	margin:0;
+	padding:0;
+	color:#222222;
+}
+ 
+div.box {
+	margin:0 auto;
+	width:500px;
+	height:auto;
+	background:#9C9C9C;
+	position:relative;
+	border:1px solid #262626;
+}
+
+div.box h1 {
+	color:black;
+	font-size:14px;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #161712;
+	border-top:1px solid #161712;
+}
+
+div.box label {
+	width:100%;
+	display: block;
+	background:#9C9C9C;
+	border-top:1px solid #262626;
+	border-bottom:1px solid #161712;
+	padding:10px 0 10px 0;
+}
+
+div.box label span {
+	display: block;
+	color:black;
+	font-size:12px;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:5px 20px 0 0;
+}
+
+div.box .inputSimple {
+	color:black;
+	padding:10px 10px;
+	width:200px;
+	background:#CFCFCF;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333333;
+	border-right:1px double #333333;
+}
+
+div.box .message {
+	color:black;
+	padding:7px 7px;
+	width:350px;
+	height:200px;
+	background:#CFCFCF;
+	border-bottom: 1px double #171717;
+	border-top: 1px double #171717;
+	border-left:1px double #333333;
+	border-right:1px double #333333;
+}
+
+div.box .button	{
+	margin-top:10px;
+	margin-left:200px;
+	padding:4px 7px;
+	background:#8B8878;
+	width:100px;
+	border-bottom: 1px double #000000;
+	border-top: 1px double #000000;
+	border-left:1px double #000000;
+	border-right:1px double #000000;
+
+}
+
+#buttonNextPage{
+	color:white;
+	background:gray;
+	margin:2px;
+	width: 20px;
+	border-bottom: none;
+	border-top: 1px double black;
+	border-left:1px double black;
+	border-right:1px double black;
+}
+	
+#buttonAction{
+	padding-left: 2px;
+	padding-right: 2px;
+	color:white;
+	background:#4F4F4F;
+	margin:2px;
+	min-width: 40px;
+}
+	
+#boxInfo{
+	color:#FFF68F;
+	font-size:10px;
+	float:right;
+	margin-right:40px;
+	border-bottom: 1px dashed #1C1C1C;
+	border-top: 1px dashed #1C1C1C;
+	border-left:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+}
+	
+#boxSettings{
+	color:#363636;
+	font-size:10px;
+	border-bottom: 1px dashed #1C1C1C;
+	border-top: 1px dashed #1C1C1C;
+	border-left:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+	border-right:1px dashed #1C1C1C;
+}
+
+#messageGood{
+	color:green;
+	background:#9C9C9C;
+	min-width: 200;
+	max-width:400;
+	margin:auto;
+	text-align:center;
+	border-bottom: 1px dashed #000000;
+	border-top: 1px dashed #000000;
+	border-left:1px dashed #363636;
+	border-right:1px dashed #363636;
+	font-weight: bold;
+}
+
+#messageBad{
+	color:red;
+	background:#9C9C9C;
+	min-width: 100;
+	max-width:400;
+	margin:0;
+	margin:auto;
+	text-align:center;
+	border-bottom: 1px dashed #000000;
+	border-top: 1px dashed #000000;
+	border-left:1px dashed #363636;
+	border-right:1px dashed #363636;
+	font-weight: bold;
+}
+
+#tableData {
+clear:both;
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: #FFFFCC;
+	width: 95%; 
+	background: none;
+}
+
+#tableData td {
+   border: 1px solid black;
+   padding: 5px;
+   background: none;
+}
+
+#tableData tr {
+   border: 1px solid black;
+   padding: 5px;
+   background: none;
+}
+
+
+

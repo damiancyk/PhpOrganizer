@@ -1,0 +1,1 @@
+<?php readfile ('http://cw.money.pl/kursy_nbp.html', true) ?>

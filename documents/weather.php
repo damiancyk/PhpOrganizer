@@ -1,0 +1,1 @@
+<?php readfile('http://cw.money.pl/pogoda_miasta/60/609.html', true); ?>

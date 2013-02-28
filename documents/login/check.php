@@ -1,0 +1,1 @@
+<?if(!isset($_SESSION['Logged'])){echo '<div id="messageBad"></br>';echo "nie masz dostepu do tej czesci organizera";echo "</br></br>";?><button class='navigation'  onClick= "location.href='hello.php?loginAgain=1'" >zaloguj sie ponownie</button><?echo '</br></br></div>';exit();}?>
